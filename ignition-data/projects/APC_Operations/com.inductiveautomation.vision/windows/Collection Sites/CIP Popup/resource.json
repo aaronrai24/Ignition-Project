@@ -1,0 +1,19 @@
+{
+  "scope": "C",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "window.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModification": {
+      "actor": "lschroeder",
+      "timestamp": "2024-02-26T20:57:42Z"
+    },
+    "xml-format-version": 1,
+    "parameter-names": "LocationCode,LocationName",
+    "lastModificationSignature": "5b195de60d1c03205beca94f47fc833fdeed4d2205a017d8a7fb56b8a7575c87"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "inherit-permissions": true,
+  "required-roles": [],
+  "invert-roles": false,
+  "restrictions": []
+}

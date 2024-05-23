@@ -1,0 +1,21 @@
+{
+  "scope": "C",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "window.bin",
+    "thumbnail.png",
+    "permissions.json"
+  ],
+  "attributes": {
+    "lastModification": {
+      "actor": "lschroeder",
+      "timestamp": "2024-02-26T21:30:00Z"
+    },
+    "xml-format-version": 1,
+    "open-on-start": true,
+    "parameter-names": "CollectionSiteDS,ShowTabs,TabDS",
+    "lastModificationSignature": "de702712ffc68c426ebec48fa7bb86a22f87faf373e36be5a3daa63aca3829ac"
+  }
+}
