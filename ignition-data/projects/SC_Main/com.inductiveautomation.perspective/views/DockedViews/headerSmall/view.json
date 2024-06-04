@@ -1,0 +1,69 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "height": 65
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "events": {
+          "dom": {
+            "onClick": {
+              "config": {
+                "id": "menu",
+                "type": "toggle"
+              },
+              "scope": "C",
+              "type": "dock"
+            }
+          }
+        },
+        "meta": {
+          "name": "Icon"
+        },
+        "position": {
+          "height": 51,
+          "rotate": {
+            "anchor": "50% 25%"
+          },
+          "width": 66,
+          "x": 8,
+          "y": 9
+        },
+        "props": {
+          "path": "material/menu"
+        },
+        "type": "ia.display.icon"
+      },
+      {
+        "meta": {
+          "name": "Label"
+        },
+        "position": {
+          "height": 65,
+          "width": 567,
+          "x": 87.5,
+          "y": 2
+        },
+        "props": {
+          "style": {
+            "textAlign": "left"
+          },
+          "text": "Sonoma Creamery Mobile App"
+        },
+        "type": "ia.display.label"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "position": {
+      "x": 49,
+      "y": -9
+    },
+    "type": "ia.container.coord"
+  }
+}

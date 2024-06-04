@@ -1,0 +1,19 @@
+{
+  "scope": "C",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "window.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModification": {
+      "actor": "patrick.costello",
+      "timestamp": "2020-11-18T01:07:25Z"
+    },
+    "xml-format-version": 1,
+    "parameter-names": "areaID,itemID,operatorID,recipeID",
+    "lastModificationSignature": "1806fc035ef2d0f1dffe0f389fa930fb840783c03289bb511b74a238db28fb28"
+  }
+}

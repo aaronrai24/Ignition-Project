@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "window.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModification": {
+      "actor": "michael.moerbeek",
+      "timestamp": "2023-02-24T12:01:47Z"
+    },
+    "xml-format-version": 1,
+    "lastModificationSignature": "a3ed2d7301ff97117eed0dcf7644052069d60af5ba34d0dfc77d420850f99027"
+  }
+}

@@ -1,0 +1,1090 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "height": 666,
+      "width": 393
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "PowerChart"
+        },
+        "position": {
+          "grow": 1,
+          "height": 660,
+          "width": 386,
+          "x": 3,
+          "y": 3
+        },
+        "props": {
+          "axes": [
+            {
+              "color": "#757A7F",
+              "dataFormat": "0,0.##",
+              "label": {
+                "font": {
+                  "color": "#757A7F",
+                  "size": 10
+                },
+                "offset": 0,
+                "style": {
+                  "classes": ""
+                },
+                "text": ""
+              },
+              "name": "Default",
+              "position": "left",
+              "range": {
+                "auto": true,
+                "max": "",
+                "min": ""
+              },
+              "style": {
+                "classes": ""
+              },
+              "tick": {
+                "color": "#757A7F",
+                "label": {
+                  "font": {
+                    "color": "#757A7F",
+                    "size": 10
+                  },
+                  "style": {
+                    "classes": ""
+                  }
+                },
+                "style": {
+                  "classes": ""
+                }
+              },
+              "width": 60
+            },
+            {
+              "color": "#757A7F",
+              "dataFormat": "0,0.##",
+              "label": {
+                "font": {
+                  "color": "#0900ff",
+                  "size": 10
+                },
+                "offset": 0,
+                "style": {
+                  "classes": ""
+                },
+                "text": "Voltage V"
+              },
+              "name": "Voltage",
+              "position": "left",
+              "range": {
+                "auto": true,
+                "max": "",
+                "min": ""
+              },
+              "style": {
+                "classes": ""
+              },
+              "tick": {
+                "color": "#0900ff",
+                "label": {
+                  "font": {
+                    "color": "#0900ff",
+                    "size": 10
+                  },
+                  "style": {
+                    "classes": ""
+                  }
+                },
+                "style": {
+                  "classes": ""
+                }
+              },
+              "width": 60
+            },
+            {
+              "color": "#757A7F",
+              "dataFormat": "0,0.##",
+              "label": {
+                "font": {
+                  "color": "#1125d3",
+                  "size": 10
+                },
+                "offset": 0,
+                "style": {
+                  "classes": ""
+                },
+                "text": ""
+              },
+              "name": "Temp",
+              "position": "left",
+              "range": {
+                "auto": true,
+                "max": "",
+                "min": ""
+              },
+              "style": {
+                "classes": ""
+              },
+              "tick": {
+                "color": "#1125d3",
+                "label": {
+                  "font": {
+                    "color": "#1125d3",
+                    "size": 6
+                  },
+                  "style": {
+                    "classes": ""
+                  }
+                },
+                "style": {
+                  "classes": ""
+                }
+              },
+              "width": 20
+            },
+            {
+              "color": "#757A7F",
+              "dataFormat": "0,0.##",
+              "label": {
+                "font": {
+                  "color": "#d99506",
+                  "size": 10
+                },
+                "offset": 0,
+                "style": {
+                  "classes": ""
+                },
+                "text": ""
+              },
+              "name": "Speed",
+              "position": "left",
+              "range": {
+                "auto": true,
+                "max": "",
+                "min": ""
+              },
+              "style": {
+                "classes": ""
+              },
+              "tick": {
+                "color": "#d99506",
+                "label": {
+                  "font": {
+                    "color": "#d99506",
+                    "size": 6
+                  },
+                  "style": {
+                    "classes": ""
+                  }
+                },
+                "style": {
+                  "classes": ""
+                }
+              },
+              "width": 22
+            },
+            {
+              "color": "#757A7F",
+              "dataFormat": "0,0.##",
+              "label": {
+                "font": {
+                  "color": "#fe0000",
+                  "size": 10
+                },
+                "offset": 0,
+                "style": {
+                  "classes": ""
+                },
+                "text": ""
+              },
+              "name": "Power",
+              "position": "left",
+              "range": {
+                "auto": true,
+                "max": "",
+                "min": ""
+              },
+              "style": {
+                "classes": ""
+              },
+              "tick": {
+                "color": "#fe0000",
+                "label": {
+                  "font": {
+                    "color": "#fe0000",
+                    "size": 6
+                  },
+                  "style": {
+                    "classes": ""
+                  }
+                },
+                "style": {
+                  "classes": ""
+                }
+              },
+              "width": 20
+            },
+            {
+              "color": "#757A7F",
+              "dataFormat": "0.##%",
+              "label": {
+                "font": {
+                  "color": "#16ede5",
+                  "size": 10
+                },
+                "offset": 0,
+                "style": {
+                  "classes": ""
+                },
+                "text": "Percent Reflected %"
+              },
+              "name": "Percent",
+              "position": "left",
+              "range": {
+                "auto": true,
+                "max": "",
+                "min": ""
+              },
+              "style": {
+                "classes": ""
+              },
+              "tick": {
+                "color": "#16ede5",
+                "label": {
+                  "font": {
+                    "color": "#16ede5",
+                    "size": 10
+                  },
+                  "style": {
+                    "classes": ""
+                  }
+                },
+                "style": {
+                  "classes": ""
+                }
+              },
+              "width": 60
+            },
+            {
+              "color": "#757A7F",
+              "dataFormat": "0,0.##",
+              "label": {
+                "font": {
+                  "color": "#b20ac6",
+                  "size": 10
+                },
+                "offset": 0,
+                "style": {
+                  "classes": ""
+                },
+                "text": "Fan Speed"
+              },
+              "name": "FanSpeed",
+              "position": "left",
+              "range": {
+                "auto": true,
+                "max": "",
+                "min": ""
+              },
+              "style": {
+                "classes": ""
+              },
+              "tick": {
+                "color": "#b20ac6",
+                "label": {
+                  "font": {
+                    "color": "#b20ac6",
+                    "size": 10
+                  },
+                  "style": {
+                    "classes": ""
+                  }
+                },
+                "style": {
+                  "classes": ""
+                }
+              },
+              "width": 60
+            },
+            {
+              "color": "#757A7F",
+              "dataFormat": "0,0",
+              "label": {
+                "font": {
+                  "color": "#007fa1",
+                  "size": 10
+                },
+                "offset": 0,
+                "style": {
+                  "classes": ""
+                },
+                "text": ""
+              },
+              "name": "BeltID",
+              "position": "left",
+              "range": {
+                "auto": false,
+                "max": 1,
+                "min": 0
+              },
+              "style": {
+                "classes": ""
+              },
+              "tick": {
+                "color": "#007fa1",
+                "label": {
+                  "font": {
+                    "color": "#007fa1",
+                    "size": 4
+                  },
+                  "style": {
+                    "classes": ""
+                  }
+                },
+                "style": {
+                  "classes": ""
+                }
+              },
+              "width": 10
+            }
+          ],
+          "config": {
+            "endDate": {
+              "$": [
+                "ts",
+                0,
+                1704492447995
+              ],
+              "$ts": 1704441540000
+            },
+            "mode": "historical",
+            "rangeEndDate": {
+              "$": [
+                "ts",
+                0,
+                1704492451350
+              ],
+              "$ts": 1704441037600
+            },
+            "rangeSelectorPen": "[default]Bessie/Global/CAM_PROGRAM_ENABLE",
+            "rangeStartDate": {
+              "$": [
+                "ts",
+                0,
+                1704492451350
+              ],
+              "$ts": 1704290820000
+            },
+            "startDate": {
+              "$": [
+                "ts",
+                0,
+                1704492447995
+              ],
+              "$ts": 1704290820000
+            },
+            "tagBrowserStartPath": "histprov:Historian:/drv:ignition-sc-production:default:/tag:bessie/perspective_historical/"
+          },
+          "dataColumns": {
+            "penControl": {
+              "plot": false
+            }
+          },
+          "legend": {
+            "visible": true
+          },
+          "pens": [
+            {
+              "axis": "BeltID",
+              "data": {
+                "aggregateMode": "default",
+                "source": "[default]Bessie/Global/CAM_PROGRAM_ENABLE"
+              },
+              "display": {
+                "breakLine": true,
+                "interpolation": "curveLinear",
+                "radius": 3,
+                "styles": {
+                  "highlighted": {
+                    "fill": {
+                      "color": "#89e0db",
+                      "opacity": 1
+                    },
+                    "stroke": {
+                      "color": "#63BEA2",
+                      "dashArray": 0,
+                      "opacity": 1,
+                      "width": 1
+                    }
+                  },
+                  "muted": {
+                    "fill": {
+                      "color": "#89e0db",
+                      "opacity": 0.4
+                    },
+                    "stroke": {
+                      "color": "#63BEA2",
+                      "dashArray": 0,
+                      "opacity": 0.4,
+                      "width": 1
+                    }
+                  },
+                  "normal": {
+                    "fill": {
+                      "color": "#89e0db",
+                      "opacity": 0.8
+                    },
+                    "stroke": {
+                      "color": "#63BEA2",
+                      "dashArray": 0,
+                      "opacity": 0.8,
+                      "width": 1
+                    }
+                  },
+                  "selected": {
+                    "fill": {
+                      "color": "#89e0db",
+                      "opacity": 1
+                    },
+                    "stroke": {
+                      "color": "#63BEA2",
+                      "dashArray": 0,
+                      "opacity": 1,
+                      "width": 1
+                    }
+                  }
+                },
+                "type": "bar"
+              },
+              "enabled": true,
+              "name": "Belt ID",
+              "plot": 0,
+              "selectable": true,
+              "visible": false
+            },
+            {
+              "axis": "Power",
+              "data": {
+                "aggregateMode": "default",
+                "source": "[default]Bessie/Global/X1_FLOAT/X1_FLOAT_24_"
+              },
+              "display": {
+                "breakLine": true,
+                "interpolation": "curveLinear",
+                "radius": 3,
+                "styles": {
+                  "highlighted": {
+                    "fill": {
+                      "color": "#FC8D62",
+                      "opacity": 1
+                    },
+                    "stroke": {
+                      "color": "#ed181c",
+                      "dashArray": 0,
+                      "opacity": 1,
+                      "width": 1
+                    }
+                  },
+                  "muted": {
+                    "fill": {
+                      "color": "#FC8D62",
+                      "opacity": 0.4
+                    },
+                    "stroke": {
+                      "color": "#ed181c",
+                      "dashArray": 0,
+                      "opacity": 0.4,
+                      "width": 1
+                    }
+                  },
+                  "normal": {
+                    "fill": {
+                      "color": "#FC8D62",
+                      "opacity": 0.8
+                    },
+                    "stroke": {
+                      "color": "#ed181c",
+                      "dashArray": 0,
+                      "opacity": 0.8,
+                      "width": 1
+                    }
+                  },
+                  "selected": {
+                    "fill": {
+                      "color": "#FC8D62",
+                      "opacity": 1
+                    },
+                    "stroke": {
+                      "color": "#ed181c",
+                      "dashArray": 0,
+                      "opacity": 1,
+                      "width": 1
+                    }
+                  }
+                },
+                "type": "line"
+              },
+              "enabled": true,
+              "name": "T1  kW",
+              "plot": 0,
+              "selectable": true,
+              "visible": true
+            },
+            {
+              "axis": "Power",
+              "data": {
+                "aggregateMode": "default",
+                "source": "[default]Bessie/Global/X2_FLOAT/X2_FLOAT_24_"
+              },
+              "display": {
+                "breakLine": true,
+                "interpolation": "curveLinear",
+                "radius": 3,
+                "styles": {
+                  "highlighted": {
+                    "fill": {
+                      "color": "#63BEA2",
+                      "opacity": 1
+                    },
+                    "stroke": {
+                      "color": "#e66b6d",
+                      "dashArray": 0,
+                      "opacity": 1,
+                      "width": 1
+                    }
+                  },
+                  "muted": {
+                    "fill": {
+                      "color": "#63BEA2",
+                      "opacity": 0.4
+                    },
+                    "stroke": {
+                      "color": "#e66b6d",
+                      "dashArray": 0,
+                      "opacity": 0.4,
+                      "width": 1
+                    }
+                  },
+                  "normal": {
+                    "fill": {
+                      "color": "#63BEA2",
+                      "opacity": 0.8
+                    },
+                    "stroke": {
+                      "color": "#e66b6d",
+                      "dashArray": 0,
+                      "opacity": 0.8,
+                      "width": 1
+                    }
+                  },
+                  "selected": {
+                    "fill": {
+                      "color": "#63BEA2",
+                      "opacity": 1
+                    },
+                    "stroke": {
+                      "color": "#e66b6d",
+                      "dashArray": 0,
+                      "opacity": 1,
+                      "width": 1
+                    }
+                  }
+                },
+                "type": "line"
+              },
+              "enabled": true,
+              "name": "T2 kW",
+              "plot": 0,
+              "selectable": true,
+              "visible": true
+            },
+            {
+              "axis": "Power",
+              "data": {
+                "aggregateMode": "default",
+                "source": "[default]Bessie/Global/X3_FLOAT/X3_FLOAT_24_"
+              },
+              "display": {
+                "breakLine": true,
+                "interpolation": "curveLinear",
+                "radius": 3,
+                "styles": {
+                  "highlighted": {
+                    "fill": {
+                      "color": "#63BEA2",
+                      "opacity": 1
+                    },
+                    "stroke": {
+                      "color": "#920f12",
+                      "dashArray": 0,
+                      "opacity": 1,
+                      "width": 1
+                    }
+                  },
+                  "muted": {
+                    "fill": {
+                      "color": "#63BEA2",
+                      "opacity": 0.4
+                    },
+                    "stroke": {
+                      "color": "#920f12",
+                      "dashArray": 0,
+                      "opacity": 0.4,
+                      "width": 1
+                    }
+                  },
+                  "normal": {
+                    "fill": {
+                      "color": "#63BEA2",
+                      "opacity": 0.8
+                    },
+                    "stroke": {
+                      "color": "#920f12",
+                      "dashArray": 0,
+                      "opacity": 0.8,
+                      "width": 1
+                    }
+                  },
+                  "selected": {
+                    "fill": {
+                      "color": "#63BEA2",
+                      "opacity": 1
+                    },
+                    "stroke": {
+                      "color": "#920f12",
+                      "dashArray": 0,
+                      "opacity": 1,
+                      "width": 1
+                    }
+                  }
+                },
+                "type": "line"
+              },
+              "enabled": true,
+              "name": "T3 kW",
+              "plot": 0,
+              "selectable": true,
+              "visible": true
+            },
+            {
+              "axis": "Power",
+              "data": {
+                "aggregateMode": "default",
+                "source": "[default]Bessie/Global/X4_FLOAT/X4_FLOAT_24_"
+              },
+              "display": {
+                "breakLine": true,
+                "interpolation": "curveLinear",
+                "radius": 3,
+                "styles": {
+                  "highlighted": {
+                    "fill": {
+                      "color": "#63BEA2",
+                      "opacity": 1
+                    },
+                    "stroke": {
+                      "color": "#e04301",
+                      "dashArray": 0,
+                      "opacity": 1,
+                      "width": 1
+                    }
+                  },
+                  "muted": {
+                    "fill": {
+                      "color": "#63BEA2",
+                      "opacity": 0.4
+                    },
+                    "stroke": {
+                      "color": "#e04301",
+                      "dashArray": 0,
+                      "opacity": 0.4,
+                      "width": 1
+                    }
+                  },
+                  "normal": {
+                    "fill": {
+                      "color": "#63BEA2",
+                      "opacity": 0.8
+                    },
+                    "stroke": {
+                      "color": "#e04301",
+                      "dashArray": 0,
+                      "opacity": 0.8,
+                      "width": 1
+                    }
+                  },
+                  "selected": {
+                    "fill": {
+                      "color": "#63BEA2",
+                      "opacity": 1
+                    },
+                    "stroke": {
+                      "color": "#e04301",
+                      "dashArray": 0,
+                      "opacity": 1,
+                      "width": 1
+                    }
+                  }
+                },
+                "type": "line"
+              },
+              "enabled": true,
+              "name": "T4 kW",
+              "plot": 0,
+              "selectable": true,
+              "visible": true
+            },
+            {
+              "axis": "Power",
+              "data": {
+                "aggregateMode": "default",
+                "source": "[default]Bessie/Global/X1_FLOAT/X1_FLOAT_10_"
+              },
+              "display": {
+                "breakLine": true,
+                "interpolation": "curveLinear",
+                "radius": 3,
+                "styles": {
+                  "highlighted": {
+                    "fill": {
+                      "color": "#63BEA2",
+                      "opacity": 1
+                    },
+                    "stroke": {
+                      "color": "#0900f8",
+                      "dashArray": 0,
+                      "opacity": 1,
+                      "width": 1
+                    }
+                  },
+                  "muted": {
+                    "fill": {
+                      "color": "#63BEA2",
+                      "opacity": 0.4
+                    },
+                    "stroke": {
+                      "color": "#0900f8",
+                      "dashArray": 0,
+                      "opacity": 0.4,
+                      "width": 1
+                    }
+                  },
+                  "normal": {
+                    "fill": {
+                      "color": "#63BEA2",
+                      "opacity": 0.8
+                    },
+                    "stroke": {
+                      "color": "#0900f8",
+                      "dashArray": 0,
+                      "opacity": 0.8,
+                      "width": 1
+                    }
+                  },
+                  "selected": {
+                    "fill": {
+                      "color": "#63BEA2",
+                      "opacity": 1
+                    },
+                    "stroke": {
+                      "color": "#0900f8",
+                      "dashArray": 0,
+                      "opacity": 1,
+                      "width": 1
+                    }
+                  }
+                },
+                "type": "line"
+              },
+              "enabled": true,
+              "name": "T1 Water",
+              "plot": 0,
+              "selectable": true,
+              "visible": true
+            },
+            {
+              "axis": "Power",
+              "data": {
+                "aggregateMode": "default",
+                "source": "[default]Bessie/Global/X2_FLOAT/X2_FLOAT_10_"
+              },
+              "display": {
+                "breakLine": true,
+                "interpolation": "curveLinear",
+                "radius": 3,
+                "styles": {
+                  "highlighted": {
+                    "fill": {
+                      "color": "#63BEA2",
+                      "opacity": 1
+                    },
+                    "stroke": {
+                      "color": "#6a77e8",
+                      "dashArray": 0,
+                      "opacity": 1,
+                      "width": 1
+                    }
+                  },
+                  "muted": {
+                    "fill": {
+                      "color": "#63BEA2",
+                      "opacity": 0.4
+                    },
+                    "stroke": {
+                      "color": "#6a77e8",
+                      "dashArray": 0,
+                      "opacity": 0.4,
+                      "width": 1
+                    }
+                  },
+                  "normal": {
+                    "fill": {
+                      "color": "#63BEA2",
+                      "opacity": 0.8
+                    },
+                    "stroke": {
+                      "color": "#6a77e8",
+                      "dashArray": 0,
+                      "opacity": 0.8,
+                      "width": 1
+                    }
+                  },
+                  "selected": {
+                    "fill": {
+                      "color": "#63BEA2",
+                      "opacity": 1
+                    },
+                    "stroke": {
+                      "color": "#6a77e8",
+                      "dashArray": 0,
+                      "opacity": 1,
+                      "width": 1
+                    }
+                  }
+                },
+                "type": "line"
+              },
+              "enabled": true,
+              "name": "T2 Water",
+              "plot": 0,
+              "selectable": true,
+              "visible": true
+            },
+            {
+              "axis": "Power",
+              "data": {
+                "aggregateMode": "default",
+                "source": "[default]Bessie/Global/X3_FLOAT/X3_FLOAT_10_"
+              },
+              "display": {
+                "breakLine": true,
+                "interpolation": "curveLinear",
+                "radius": 3,
+                "styles": {
+                  "highlighted": {
+                    "fill": {
+                      "color": "#63BEA2",
+                      "opacity": 1
+                    },
+                    "stroke": {
+                      "color": "#0e8af3",
+                      "dashArray": 0,
+                      "opacity": 1,
+                      "width": 1
+                    }
+                  },
+                  "muted": {
+                    "fill": {
+                      "color": "#63BEA2",
+                      "opacity": 0.4
+                    },
+                    "stroke": {
+                      "color": "#0e8af3",
+                      "dashArray": 0,
+                      "opacity": 0.4,
+                      "width": 1
+                    }
+                  },
+                  "normal": {
+                    "fill": {
+                      "color": "#63BEA2",
+                      "opacity": 0.8
+                    },
+                    "stroke": {
+                      "color": "#0e8af3",
+                      "dashArray": 0,
+                      "opacity": 0.8,
+                      "width": 1
+                    }
+                  },
+                  "selected": {
+                    "fill": {
+                      "color": "#63BEA2",
+                      "opacity": 1
+                    },
+                    "stroke": {
+                      "color": "#0e8af3",
+                      "dashArray": 0,
+                      "opacity": 1,
+                      "width": 1
+                    }
+                  }
+                },
+                "type": "line"
+              },
+              "enabled": true,
+              "name": "T3 Water",
+              "plot": 0,
+              "selectable": true,
+              "visible": false
+            },
+            {
+              "axis": "Power",
+              "data": {
+                "aggregateMode": "default",
+                "source": "[default]Bessie/Global/X4_FLOAT/X4_FLOAT_10_"
+              },
+              "display": {
+                "breakLine": true,
+                "interpolation": "curveLinear",
+                "radius": 3,
+                "styles": {
+                  "highlighted": {
+                    "fill": {
+                      "color": "#63BEA2",
+                      "opacity": 1
+                    },
+                    "stroke": {
+                      "color": "#06119a",
+                      "dashArray": 0,
+                      "opacity": 1,
+                      "width": 1
+                    }
+                  },
+                  "muted": {
+                    "fill": {
+                      "color": "#63BEA2",
+                      "opacity": 0.4
+                    },
+                    "stroke": {
+                      "color": "#06119a",
+                      "dashArray": 0,
+                      "opacity": 0.4,
+                      "width": 1
+                    }
+                  },
+                  "normal": {
+                    "fill": {
+                      "color": "#63BEA2",
+                      "opacity": 0.8
+                    },
+                    "stroke": {
+                      "color": "#06119a",
+                      "dashArray": 0,
+                      "opacity": 0.8,
+                      "width": 1
+                    }
+                  },
+                  "selected": {
+                    "fill": {
+                      "color": "#63BEA2",
+                      "opacity": 1
+                    },
+                    "stroke": {
+                      "color": "#06119a",
+                      "dashArray": 0,
+                      "opacity": 1,
+                      "width": 1
+                    }
+                  }
+                },
+                "type": "line"
+              },
+              "enabled": true,
+              "name": "T4 Water",
+              "plot": 0,
+              "selectable": true,
+              "visible": false
+            },
+            {
+              "axis": "Speed",
+              "data": {
+                "aggregateMode": "default",
+                "source": "[default]Bessie/Global/FLOAT14/FLOAT14_19_"
+              },
+              "display": {
+                "breakLine": true,
+                "interpolation": "curveLinear",
+                "radius": 3,
+                "styles": {
+                  "highlighted": {
+                    "fill": {
+                      "color": "#63BEA2",
+                      "opacity": 1
+                    },
+                    "stroke": {
+                      "color": "#ffa600",
+                      "dashArray": 0,
+                      "opacity": 1,
+                      "width": 1
+                    }
+                  },
+                  "muted": {
+                    "fill": {
+                      "color": "#63BEA2",
+                      "opacity": 0.4
+                    },
+                    "stroke": {
+                      "color": "#ffa600",
+                      "dashArray": 0,
+                      "opacity": 0.4,
+                      "width": 1
+                    }
+                  },
+                  "normal": {
+                    "fill": {
+                      "color": "#63BEA2",
+                      "opacity": 0.8
+                    },
+                    "stroke": {
+                      "color": "#ffa600",
+                      "dashArray": 0,
+                      "opacity": 0.8,
+                      "width": 1
+                    }
+                  },
+                  "selected": {
+                    "fill": {
+                      "color": "#63BEA2",
+                      "opacity": 1
+                    },
+                    "stroke": {
+                      "color": "#ffa600",
+                      "dashArray": 0,
+                      "opacity": 1,
+                      "width": 1
+                    }
+                  }
+                },
+                "type": "line"
+              },
+              "enabled": true,
+              "name": "Belt Speed",
+              "plot": 0,
+              "selectable": true,
+              "visible": true
+            }
+          ]
+        },
+        "type": "ia.chart.powerchart"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.flex"
+  }
+}

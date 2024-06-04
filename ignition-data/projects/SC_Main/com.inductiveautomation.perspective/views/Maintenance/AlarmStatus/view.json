@@ -1,0 +1,223 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "height": 728,
+      "width": 396
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "AlarmStatusTable"
+        },
+        "position": {
+          "height": 340.97,
+          "rotate": {
+            "angle": "270deg"
+          },
+          "width": 702.99,
+          "x": -179.5,
+          "y": 179.5
+        },
+        "propConfig": {
+          "props.filters.active.conditions.displayPath": {
+            "binding": {
+              "config": {
+                "path": "../Selection_Container.custom.DisplayPathFilter"
+              },
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "columns": {
+            "active": {
+              "source": {
+                "enabled": false
+              }
+            }
+          },
+          "filters": {
+            "active": {
+              "conditions": {},
+              "states": {
+                "clearUnacked": false
+              }
+            }
+          }
+        },
+        "type": "ia.display.alarmstatustable"
+      },
+      {
+        "children": [
+          {
+            "meta": {
+              "name": "Filter_Comms"
+            },
+            "position": {
+              "basis": "100px"
+            },
+            "props": {
+              "text": "Comms"
+            },
+            "type": "ia.input.checkbox"
+          },
+          {
+            "meta": {
+              "name": "Filter_Bessie"
+            },
+            "position": {
+              "basis": "100px"
+            },
+            "props": {
+              "text": "Bessie"
+            },
+            "type": "ia.input.checkbox"
+          },
+          {
+            "meta": {
+              "name": "Filter_Toyo"
+            },
+            "position": {
+              "basis": "100px"
+            },
+            "props": {
+              "text": "Toyo"
+            },
+            "type": "ia.input.checkbox"
+          },
+          {
+            "meta": {
+              "name": "Filter_Bernice"
+            },
+            "position": {
+              "basis": "100px"
+            },
+            "props": {
+              "text": "Bernice"
+            },
+            "type": "ia.input.checkbox"
+          }
+        ],
+        "meta": {
+          "name": "Selection_Container"
+        },
+        "position": {
+          "height": 48.03,
+          "rotate": {
+            "angle": "270deg"
+          },
+          "width": 399.98,
+          "x": 171.03,
+          "y": 333.02
+        },
+        "propConfig": {
+          "custom.Bernice": {
+            "binding": {
+              "config": {
+                "path": "./Filter_Bernice.props.selected"
+              },
+              "transforms": [
+                {
+                  "fallback": "",
+                  "inputType": "scalar",
+                  "mappings": [
+                    {
+                      "input": true,
+                      "output": "*Bernice*,"
+                    }
+                  ],
+                  "outputType": "scalar",
+                  "type": "map"
+                }
+              ],
+              "type": "property"
+            }
+          },
+          "custom.Bessie": {
+            "binding": {
+              "config": {
+                "path": "./Filter_Bessie.props.selected"
+              },
+              "transforms": [
+                {
+                  "fallback": "",
+                  "inputType": "scalar",
+                  "mappings": [
+                    {
+                      "input": true,
+                      "output": "*Bessie*,"
+                    }
+                  ],
+                  "outputType": "scalar",
+                  "type": "map"
+                }
+              ],
+              "type": "property"
+            }
+          },
+          "custom.Comms": {
+            "binding": {
+              "config": {
+                "path": "./Filter_Comms.props.selected"
+              },
+              "transforms": [
+                {
+                  "fallback": "",
+                  "inputType": "scalar",
+                  "mappings": [
+                    {
+                      "input": true,
+                      "output": "*Comms*,"
+                    }
+                  ],
+                  "outputType": "scalar",
+                  "type": "map"
+                }
+              ],
+              "type": "property"
+            }
+          },
+          "custom.DisplayPathFilter": {
+            "binding": {
+              "config": {
+                "expression": "{this.custom.Comms}+{this.custom.Bessie}+{this.custom.Toyo}+{this.custom.Bernice}"
+              },
+              "type": "expr"
+            }
+          },
+          "custom.Toyo": {
+            "binding": {
+              "config": {
+                "path": "./Filter_Toyo.props.selected"
+              },
+              "transforms": [
+                {
+                  "fallback": "",
+                  "inputType": "scalar",
+                  "mappings": [
+                    {
+                      "input": true,
+                      "output": "*Toyo*,"
+                    }
+                  ],
+                  "outputType": "scalar",
+                  "type": "map"
+                }
+              ],
+              "type": "property"
+            }
+          }
+        },
+        "type": "ia.container.flex"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.coord"
+  }
+}

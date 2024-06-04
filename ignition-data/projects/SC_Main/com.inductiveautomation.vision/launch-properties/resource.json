@@ -1,0 +1,16 @@
+{
+  "scope": "CG",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "data.bin"
+  ],
+  "attributes": {
+    "lastModification": {
+      "actor": "volo",
+      "timestamp": "2023-03-03T19:23:43Z"
+    },
+    "lastModificationSignature": "9ba3cce28c3d03ad2065140af4b14bc33c19dce08928e633fd2047b86888f59f"
+  }
+}

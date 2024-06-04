@@ -1,0 +1,16 @@
+{
+  "scope": "G",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "data.bin"
+  ],
+  "attributes": {
+    "lastModification": {
+      "actor": "volo",
+      "timestamp": "2024-01-09T00:43:13Z"
+    },
+    "lastModificationSignature": "b4273754cf17957748c172962d4dbc7bc63e472f3c4d4d765cff37417c7139e4"
+  }
+}

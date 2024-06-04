@@ -1,0 +1,18 @@
+{
+  "scope": "C",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "window.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModification": {
+      "actor": "volo",
+      "timestamp": "2024-01-18T20:21:38Z"
+    },
+    "xml-format-version": 1,
+    "lastModificationSignature": "0963bcb22d21bed4c632a09bb30723ea4d0bf6b86a21e2d215ee3adf337715c6"
+  }
+}

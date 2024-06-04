@@ -1,0 +1,16 @@
+{
+  "scope": "C",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "data.bin"
+  ],
+  "attributes": {
+    "lastModification": {
+      "actor": "patrick.costello",
+      "timestamp": "2020-05-20T23:40:38Z"
+    },
+    "lastModificationSignature": "69f525f5dce23965aad5108cb57a5180508d8be2f351540f605954e1081d70c3"
+  }
+}

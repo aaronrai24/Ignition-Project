@@ -1,0 +1,19 @@
+{
+  "scope": "C",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "window.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModification": {
+      "actor": "patrick.costello",
+      "timestamp": "2020-11-18T01:07:25Z"
+    },
+    "xml-format-version": 1,
+    "parameter-names": "selectedRowData,workOrderId",
+    "lastModificationSignature": "e7e1b29761aa344a2e1d9ed4764c03ccb99d73805cf437d2a923fe45789cba4a"
+  }
+}

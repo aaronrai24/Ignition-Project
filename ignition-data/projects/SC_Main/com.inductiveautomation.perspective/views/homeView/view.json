@@ -1,0 +1,43 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Label"
+        },
+        "position": {
+          "basis": "151px"
+        },
+        "props": {
+          "text": "Welcome to the Sonoma Creamery Mobile Application"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_0"
+        },
+        "position": {
+          "basis": "32px"
+        },
+        "props": {
+          "text": "Start by using the navigation bar above, and begin to explore."
+        },
+        "type": "ia.display.label"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "alignContent": "center",
+      "alignItems": "center",
+      "direction": "column",
+      "wrap": "wrap"
+    },
+    "type": "ia.container.flex"
+  }
+}

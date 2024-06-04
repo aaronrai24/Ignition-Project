@@ -1,0 +1,195 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "width": 200
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "MenuTree"
+        },
+        "position": {
+          "height": ".98",
+          "width": ".98",
+          "x": 0.0183,
+          "y": 0.0024
+        },
+        "props": {
+          "items": [
+            {
+              "enabled": true,
+              "items": [
+                {
+                  "enabled": true,
+                  "items": [],
+                  "label": {
+                    "icon": {
+                      "path": ""
+                    },
+                    "text": "Bessie Process Data"
+                  },
+                  "navIcon": {
+                    "path": ""
+                  },
+                  "showHeader": true,
+                  "style": {
+                    "classes": ""
+                  },
+                  "target": "/bessiehistorical",
+                  "visible": true
+                },
+                {
+                  "enabled": true,
+                  "items": [],
+                  "label": {
+                    "icon": {
+                      "path": ""
+                    },
+                    "text": "Bessie Realtime Data"
+                  },
+                  "navIcon": {
+                    "path": ""
+                  },
+                  "showHeader": true,
+                  "style": {
+                    "classes": ""
+                  },
+                  "target": "/bessierealtime",
+                  "visible": true
+                }
+              ],
+              "label": {
+                "icon": {
+                  "path": "material/list"
+                },
+                "text": "Bessie"
+              },
+              "navIcon": {
+                "color": "",
+                "path": "material/chevron_right"
+              },
+              "showHeader": true,
+              "style": {
+                "classes": ""
+              },
+              "target": "",
+              "visible": true
+            },
+            {
+              "enabled": true,
+              "items": [
+                {
+                  "enabled": true,
+                  "items": [],
+                  "label": {
+                    "icon": {
+                      "path": ""
+                    },
+                    "text": "SKU Scanner"
+                  },
+                  "navIcon": {
+                    "path": ""
+                  },
+                  "showHeader": true,
+                  "style": {
+                    "classes": ""
+                  },
+                  "target": "/barcodeScanner",
+                  "visible": true
+                }
+              ],
+              "label": {
+                "icon": {
+                  "path": "material/list"
+                },
+                "text": "Barcode"
+              },
+              "navIcon": {
+                "color": "",
+                "path": "material/chevron_right"
+              },
+              "showHeader": true,
+              "style": {
+                "classes": ""
+              },
+              "target": "",
+              "visible": true
+            },
+            {
+              "enabled": true,
+              "items": [],
+              "label": {
+                "icon": {
+                  "path": ""
+                },
+                "text": "Toyo"
+              },
+              "navIcon": {
+                "color": "",
+                "path": "material/chevron_right"
+              },
+              "showHeader": true,
+              "style": {
+                "classes": ""
+              },
+              "target": "/toyorealtime",
+              "visible": true
+            },
+            {
+              "enabled": true,
+              "items": [],
+              "label": {
+                "icon": {
+                  "path": ""
+                },
+                "text": "Maintenance"
+              },
+              "navIcon": {
+                "color": "",
+                "path": "material/chevron_right"
+              },
+              "showHeader": true,
+              "style": {
+                "classes": ""
+              },
+              "target": "/maintworkorder",
+              "visible": true
+            },
+            {
+              "enabled": false,
+              "items": [],
+              "label": {
+                "icon": {
+                  "path": ""
+                },
+                "text": "Alarm Status"
+              },
+              "navIcon": {
+                "color": "",
+                "path": "material/chevron_right"
+              },
+              "showHeader": false,
+              "style": {
+                "classes": ""
+              },
+              "target": "/alarmsts",
+              "visible": false
+            }
+          ]
+        },
+        "type": "ia.navigation.menutree"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "mode": "percent"
+    },
+    "type": "ia.container.coord"
+  }
+}

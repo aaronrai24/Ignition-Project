@@ -1,0 +1,424 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "height": 758,
+      "width": 497
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "events": {
+          "dom": {
+            "onClick": {
+              "config": {
+                "config": {
+                  "type": "ANY",
+                  "uuid": "a75a46eb-947b-4370-b05a-01867c5e5b46"
+                },
+                "context": {}
+              },
+              "scope": "C",
+              "type": "native/barcode"
+            }
+          }
+        },
+        "meta": {
+          "name": "Button"
+        },
+        "position": {
+          "height": 0.1095,
+          "width": 0.9598,
+          "x": 0.0211,
+          "y": 0.8409
+        },
+        "props": {
+          "text": "Scan a barcode."
+        },
+        "type": "ia.input.button"
+      },
+      {
+        "meta": {
+          "name": "Label"
+        },
+        "position": {
+          "height": 0.0449,
+          "rotate": {
+            "anchor": "12% 50%"
+          },
+          "width": 0.6016,
+          "x": 0.3525,
+          "y": 0.0029
+        },
+        "propConfig": {
+          "props.text": {
+            "binding": {
+              "config": {
+                "path": "session.custom.skuID"
+              },
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "fontSize": "27px",
+          "style": {
+            "fontSize": 20,
+            "fontWeight": "bold"
+          },
+          "textAlign": "center"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Table"
+        },
+        "position": {
+          "height": 0.1187,
+          "width": 0.9497,
+          "x": 0.0228,
+          "y": 0.0568
+        },
+        "propConfig": {
+          "props.data": {
+            "binding": {
+              "config": {
+                "path": "session.custom.tableData"
+              },
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "cells": {
+            "style": {
+              "borderStyle": "none"
+            }
+          },
+          "columns": [
+            {
+              "align": "center",
+              "boolean": "checkbox",
+              "dateFormat": "MM/DD/YYYY",
+              "editable": false,
+              "field": "skuID",
+              "footer": {
+                "align": "center",
+                "justify": "left",
+                "style": {
+                  "classes": ""
+                },
+                "title": ""
+              },
+              "header": {
+                "align": "top",
+                "justify": "left",
+                "style": {
+                  "classes": "",
+                  "textAlign": "center"
+                },
+                "title": ""
+              },
+              "justify": "auto",
+              "number": "value",
+              "numberFormat": "0,0.##",
+              "progressBar": {
+                "bar": {
+                  "color": "#62A3F6",
+                  "linecap": "round",
+                  "width": 5
+                },
+                "max": 100,
+                "track": {
+                  "color": "#DADADA",
+                  "linecap": "round",
+                  "width": 2
+                },
+                "value": {
+                  "color": "#7D7D7D",
+                  "show": true
+                }
+              },
+              "render": "auto",
+              "resizable": true,
+              "sortable": true,
+              "strictWidth": false,
+              "style": {
+                "classes": ""
+              },
+              "toggleSwitch": {
+                "color": {
+                  "selected": "#2196F3",
+                  "unselected": "#FFFFFF"
+                }
+              },
+              "viewParams": {},
+              "viewPath": "",
+              "visible": false,
+              "width": ""
+            },
+            {
+              "align": "center",
+              "boolean": "checkbox",
+              "dateFormat": "MM/DD/YYYY",
+              "editable": false,
+              "field": "SKU Number",
+              "footer": {
+                "align": "center",
+                "justify": "left",
+                "style": {
+                  "classes": ""
+                },
+                "title": ""
+              },
+              "header": {
+                "align": "center",
+                "justify": "left",
+                "style": {
+                  "classes": ""
+                },
+                "title": ""
+              },
+              "justify": "left",
+              "number": "value",
+              "numberFormat": "0,0.##",
+              "progressBar": {
+                "bar": {
+                  "color": "#62A3F6",
+                  "linecap": "round",
+                  "width": 5
+                },
+                "max": 100,
+                "track": {
+                  "color": "#DADADA",
+                  "linecap": "round",
+                  "width": 2
+                },
+                "value": {
+                  "color": "#7D7D7D",
+                  "show": true
+                }
+              },
+              "render": "auto",
+              "resizable": true,
+              "sortable": true,
+              "strictWidth": false,
+              "style": {
+                "classes": "",
+                "fontVariant": "small-caps",
+                "fontWeight": "bold",
+                "textAlign": "center"
+              },
+              "toggleSwitch": {
+                "color": {
+                  "selected": "#2196F3",
+                  "unselected": "#FFFFFF"
+                }
+              },
+              "viewParams": {},
+              "viewPath": "",
+              "visible": true,
+              "width": 6
+            },
+            {
+              "align": "center",
+              "boolean": "checkbox",
+              "dateFormat": "MM/DD/YYYY",
+              "editable": false,
+              "field": "SKU Description",
+              "footer": {
+                "align": "center",
+                "justify": "left",
+                "style": {
+                  "classes": ""
+                },
+                "title": ""
+              },
+              "header": {
+                "align": "center",
+                "justify": "left",
+                "style": {
+                  "classes": ""
+                },
+                "title": ""
+              },
+              "justify": "left",
+              "number": "value",
+              "numberFormat": "0,0.##",
+              "progressBar": {
+                "bar": {
+                  "color": "#62A3F6",
+                  "linecap": "round",
+                  "width": 5
+                },
+                "max": 100,
+                "track": {
+                  "color": "#DADADA",
+                  "linecap": "round",
+                  "width": 2
+                },
+                "value": {
+                  "color": "#7D7D7D",
+                  "show": true
+                }
+              },
+              "render": "auto",
+              "resizable": true,
+              "sortable": true,
+              "strictWidth": false,
+              "style": {
+                "classes": "",
+                "fontWeight": "bold"
+              },
+              "toggleSwitch": {
+                "color": {
+                  "selected": "#2196F3",
+                  "unselected": "#FFFFFF"
+                }
+              },
+              "viewParams": {},
+              "viewPath": "",
+              "visible": true,
+              "width": 5
+            }
+          ],
+          "headerGroups": [
+            []
+          ],
+          "pager": {
+            "bottom": false
+          },
+          "rows": {
+            "style": {
+              "fontStyle": "normal",
+              "fontVariant": "small-caps",
+              "fontWeight": "bold",
+              "textAlign": "center"
+            }
+          },
+          "selection": {
+            "enableRowSelection": false
+          },
+          "style": {
+            "fontSize": "12px",
+            "fontVariant": "small-caps"
+          }
+        },
+        "type": "ia.display.table"
+      },
+      {
+        "meta": {
+          "name": "Image_0"
+        },
+        "position": {
+          "height": 0.6359,
+          "rotate": {
+            "anchor": "50% 42%"
+          },
+          "width": 0.9215,
+          "x": 0.0412,
+          "y": 0.1826
+        },
+        "propConfig": {
+          "props.source": {
+            "binding": {
+              "config": {
+                "expression": "try(\"/system/images/Builtin/skuImages/Sonoma_\"+{parent.custom.skuID}+\".jpg\", \"/system/images/Builtin/icons/48/stop.png\")\r\n"
+              },
+              "type": "expr"
+            }
+          }
+        },
+        "props": {
+          "fit": {
+            "mode": "contain"
+          }
+        },
+        "type": "ia.display.image"
+      },
+      {
+        "meta": {
+          "name": "Label_0"
+        },
+        "position": {
+          "height": 0.0594,
+          "rotate": {
+            "anchor": "50% 100%"
+          },
+          "width": 0.3421,
+          "x": 0.0025,
+          "y": 0.0007
+        },
+        "props": {
+          "style": {
+            "fontSize": 20,
+            "fontWeight": "bold"
+          },
+          "text": "Scanned UPC"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_1"
+        },
+        "position": {
+          "height": 0.2203,
+          "width": 0.9879,
+          "x": 0.0059,
+          "y": 0.0026
+        },
+        "propConfig": {
+          "meta.visible": {
+            "binding": {
+              "config": {
+                "path": "session.custom.skuNotFound"
+              },
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "style": {
+            "backgroundColor": "#FFFFFF",
+            "borderBottomLeftRadius": 12,
+            "borderBottomRightRadius": 12,
+            "borderTopLeftRadius": 12,
+            "borderTopRightRadius": 12,
+            "boxShadow": "50",
+            "color": "#FA0000"
+          },
+          "text": "Warning!  Not a Sonoma Creamery Product.  "
+        },
+        "type": "ia.display.label"
+      }
+    ],
+    "custom": {
+      "ds": "value"
+    },
+    "meta": {
+      "name": "root"
+    },
+    "propConfig": {
+      "custom.skuID": {
+        "binding": {
+          "config": {
+            "expression": "try({./Table.props.data}[0,0], -1)\r\n\r\n"
+          },
+          "type": "expr"
+        }
+      }
+    },
+    "props": {
+      "mode": "percent",
+      "style": {
+        "fontSize": "27px",
+        "textAlign": "center"
+      }
+    },
+    "type": "ia.container.coord"
+  }
+}

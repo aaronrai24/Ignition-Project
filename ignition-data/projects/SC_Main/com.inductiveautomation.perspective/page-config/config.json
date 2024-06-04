@@ -1,0 +1,75 @@
+{
+  "pages": {
+    "/maintenanceworkorder": {
+      "viewPath": "Maintenance/maintenanceWorkOrder"
+    },
+    "/alarmsts": {
+      "viewPath": "Maintenance/AlarmSts"
+    },
+    "/barcodeScanner": {
+      "viewPath": "Utilities/barcodeScanner"
+    },
+    "/homeview": {
+      "viewPath": "homeView"
+    },
+    "/bessiehistorical": {
+      "viewPath": "Bessie/bessieHistorical"
+    },
+    "/maintworkorder": {
+      "viewPath": "Maintenance/maintworkorder"
+    },
+    "/toyorealtime": {
+      "viewPath": "Toyo/toyoRealtime"
+    },
+    "/bessierealtime": {
+      "viewPath": "Bessie/bessieRealtime"
+    },
+    "/maintenanceworkorders": {
+      "viewPath": "Maintenance/maintenanceWorkOrders"
+    },
+    "/alarms": {
+      "viewPath": "Maintenance/Alarms"
+    },
+    "/alarmstatus": {
+      "viewPath": "Maintenance/AlarmStatus"
+    },
+    "/": {
+      "viewPath": "homeView"
+    }
+  },
+  "sharedDocks": {
+    "cornerPriority": "top-bottom",
+    "left": [
+      {
+        "viewPath": "DockedViews/menuView",
+        "id": "menu",
+        "viewParams": {},
+        "size": 200,
+        "resizable": false,
+        "iconUrl": "",
+        "modal": false,
+        "show": "auto",
+        "anchor": "fixed",
+        "content": "push",
+        "autoBreakpoint": 640,
+        "handle": "hide"
+      }
+    ],
+    "top": [
+      {
+        "viewPath": "DockedViews/headerMain",
+        "id": "",
+        "viewParams": {},
+        "size": 65,
+        "resizable": false,
+        "iconUrl": "",
+        "modal": false,
+        "show": "visible",
+        "anchor": "fixed",
+        "content": "push",
+        "autoBreakpoint": 480,
+        "handle": "hide"
+      }
+    ]
+  }
+}

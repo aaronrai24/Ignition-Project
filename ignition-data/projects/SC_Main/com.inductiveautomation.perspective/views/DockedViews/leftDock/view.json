@@ -1,0 +1,97 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "height": 758,
+      "width": 109
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "events": {
+          "dom": {
+            "onClick": {
+              "config": {
+                "page": "/bessiehistorical"
+              },
+              "scope": "C",
+              "type": "nav"
+            },
+            "onTouchEnd": {
+              "config": {
+                "params": {},
+                "view": "Bessie/bessieHistorical"
+              },
+              "scope": "C",
+              "type": "nav"
+            }
+          }
+        },
+        "meta": {
+          "name": "Button"
+        },
+        "position": {
+          "height": 56,
+          "width": 103,
+          "x": -0.5,
+          "y": 15
+        },
+        "props": {
+          "text": "Bessie"
+        },
+        "type": "ia.input.button"
+      },
+      {
+        "events": {
+          "dom": {
+            "onClick": {
+              "config": {
+                "page": "/barcodeScanner"
+              },
+              "scope": "C",
+              "type": "nav"
+            },
+            "onTouchEnd": {
+              "config": {
+                "page": "/barcodeScanner"
+              },
+              "scope": "C",
+              "type": "nav"
+            }
+          }
+        },
+        "meta": {
+          "name": "Button_0"
+        },
+        "position": {
+          "height": 56,
+          "width": 103,
+          "x": -0.5,
+          "y": 71
+        },
+        "props": {
+          "text": "Barcode"
+        },
+        "type": "ia.input.button"
+      }
+    ],
+    "events": {
+      "dom": {
+        "onClick": {
+          "config": {
+            "params": {},
+            "view": "View"
+          },
+          "scope": "C",
+          "type": "nav"
+        }
+      }
+    },
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.coord"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "scope": "G",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "config.json"
+  ],
+  "attributes": {
+    "lastModification": {
+      "actor": "volo",
+      "timestamp": "2024-01-17T23:26:19Z"
+    },
+    "lastModificationSignature": "2bd16bace4b9d8e7190a53df27c62a97b7d2848a15c7755c294bf6adbf001070"
+  }
+}

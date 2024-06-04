@@ -1,0 +1,20 @@
+{
+  "scope": "C",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "window.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModification": {
+      "actor": "michael.moerbeek",
+      "timestamp": "2024-02-27T00:29:34Z"
+    },
+    "xml-format-version": 1,
+    "open-on-start": true,
+    "parameter-names": "endTimerBuffered,skuIndex,startTimeBuffered",
+    "lastModificationSignature": "4effdaee8ab1da99994b25cff989b5c937117351f6fbc28a292ed740cd8f5594"
+  }
+}

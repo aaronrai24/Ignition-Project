@@ -1,0 +1,636 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "height": 666,
+      "width": 348
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Label_3"
+        },
+        "position": {
+          "height": 25,
+          "width": 343,
+          "y": 1
+        },
+        "props": {
+          "style": {
+            "backgroundColor": "#D5D5D5",
+            "fontWeight": "bold"
+          },
+          "text": "Power"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_4"
+        },
+        "position": {
+          "height": 25,
+          "width": 343,
+          "y": 208.5
+        },
+        "props": {
+          "style": {
+            "backgroundColor": "#D5D5D5",
+            "fontWeight": "bold"
+          },
+          "text": "Temperature"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_10"
+        },
+        "position": {
+          "height": 25,
+          "width": 343,
+          "y": 425.49
+        },
+        "props": {
+          "style": {
+            "backgroundColor": "#D5D5D5",
+            "fontWeight": "bold"
+          },
+          "text": "Operational"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "LedDisplay"
+        },
+        "position": {
+          "height": 49,
+          "width": 124,
+          "x": 219,
+          "y": 5
+        },
+        "propConfig": {
+          "props.value": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]Bessie/Perspective_Historical/X1 KW"
+              },
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "backgroundColor": "#D5D5D5",
+          "diodeOffColor": "#0062FF1A",
+          "diodeOnColor": "#0062FF"
+        },
+        "type": "ia.display.led-display"
+      },
+      {
+        "meta": {
+          "name": "LedDisplay_0"
+        },
+        "position": {
+          "height": 49,
+          "width": 124,
+          "x": 219,
+          "y": 54
+        },
+        "propConfig": {
+          "props.value": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]Bessie/Perspective_Historical/X2 KW"
+              },
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "backgroundColor": "#D5D5D5",
+          "diodeOffColor": "#0062FF1A",
+          "diodeOnColor": "#0062FF"
+        },
+        "type": "ia.display.led-display"
+      },
+      {
+        "meta": {
+          "name": "LedDisplay_1"
+        },
+        "position": {
+          "height": 49,
+          "width": 124,
+          "x": 219,
+          "y": 103
+        },
+        "propConfig": {
+          "props.value": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]Bessie/Perspective_Historical/X3 KW"
+              },
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "backgroundColor": "#D5D5D5",
+          "diodeOffColor": "#0062FF1A",
+          "diodeOnColor": "#0062FF"
+        },
+        "type": "ia.display.led-display"
+      },
+      {
+        "meta": {
+          "name": "LedDisplay_2"
+        },
+        "position": {
+          "height": 49,
+          "width": 124,
+          "x": 219,
+          "y": 152
+        },
+        "propConfig": {
+          "props.value": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]Bessie/Perspective_Historical/X4 KW"
+              },
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "backgroundColor": "#D5D5D5",
+          "diodeOffColor": "#0062FF1A",
+          "diodeOnColor": "#0062FF"
+        },
+        "type": "ia.display.led-display"
+      },
+      {
+        "meta": {
+          "name": "Label"
+        },
+        "position": {
+          "height": 46,
+          "rotate": {
+            "anchor": "50% 75%"
+          },
+          "width": 212,
+          "x": 4,
+          "y": 13.5
+        },
+        "props": {
+          "text": "Transmitter 1 KW"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_0"
+        },
+        "position": {
+          "height": 46,
+          "rotate": {
+            "anchor": "50% 159%"
+          },
+          "width": 212,
+          "x": 4,
+          "y": 55
+        },
+        "props": {
+          "text": "Transmitter 2 KW"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_1"
+        },
+        "position": {
+          "height": 46,
+          "rotate": {
+            "anchor": "50% 159%"
+          },
+          "width": 212,
+          "x": 4,
+          "y": 105
+        },
+        "props": {
+          "text": "Transmitter 3 KW"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_2"
+        },
+        "position": {
+          "height": 46,
+          "rotate": {
+            "anchor": "50% 159%"
+          },
+          "width": 212,
+          "x": 4,
+          "y": 152
+        },
+        "props": {
+          "text": "Transmitter 4 KW"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_5"
+        },
+        "position": {
+          "height": 46,
+          "rotate": {
+            "anchor": "50% 75%"
+          },
+          "width": 212,
+          "x": 4,
+          "y": 224.5
+        },
+        "props": {
+          "text": "Transmitter 1 Water"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_6"
+        },
+        "position": {
+          "height": 46,
+          "rotate": {
+            "anchor": "50% 159%"
+          },
+          "width": 212,
+          "x": 4,
+          "y": 273
+        },
+        "props": {
+          "text": "Transmitter 2 Water"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_7"
+        },
+        "position": {
+          "height": 46,
+          "rotate": {
+            "anchor": "50% 159%"
+          },
+          "width": 212,
+          "x": 4,
+          "y": 323
+        },
+        "props": {
+          "text": "Transmitter 3 Water"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_8"
+        },
+        "position": {
+          "height": 46,
+          "rotate": {
+            "anchor": "50% 159%"
+          },
+          "width": 212,
+          "x": 4,
+          "y": 370
+        },
+        "props": {
+          "text": "Transmitter 4 Water"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "LedDisplay_3"
+        },
+        "position": {
+          "height": 49,
+          "width": 124,
+          "x": 219,
+          "y": 220.5
+        },
+        "propConfig": {
+          "props.value": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]Bessie/Global/X1_FLOAT/X1_FLOAT_10_"
+              },
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "backgroundColor": "#D5D5D5",
+          "diodeOffColor": "#0062FF1A",
+          "diodeOnColor": "#0062FF"
+        },
+        "type": "ia.display.led-display"
+      },
+      {
+        "meta": {
+          "name": "LedDisplay_4"
+        },
+        "position": {
+          "height": 49,
+          "width": 124,
+          "x": 219,
+          "y": 269.5
+        },
+        "propConfig": {
+          "props.value": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]Bessie/Global/X2_FLOAT/X2_FLOAT_10_"
+              },
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "backgroundColor": "#D5D5D5",
+          "diodeOffColor": "#0062FF1A",
+          "diodeOnColor": "#0062FF"
+        },
+        "type": "ia.display.led-display"
+      },
+      {
+        "meta": {
+          "name": "LedDisplay_5"
+        },
+        "position": {
+          "height": 49,
+          "width": 124,
+          "x": 219,
+          "y": 319.5
+        },
+        "propConfig": {
+          "props.value": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]Bessie/Global/X3_FLOAT/X3_FLOAT_10_"
+              },
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "backgroundColor": "#D5D5D5",
+          "diodeOffColor": "#0062FF1A",
+          "diodeOnColor": "#0062FF"
+        },
+        "type": "ia.display.led-display"
+      },
+      {
+        "meta": {
+          "name": "LedDisplay_6"
+        },
+        "position": {
+          "height": 49,
+          "width": 124,
+          "x": 219,
+          "y": 368
+        },
+        "propConfig": {
+          "props.value": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]Bessie/Global/X4_FLOAT/X4_FLOAT_10_"
+              },
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "backgroundColor": "#D5D5D5",
+          "diodeOffColor": "#0062FF1A",
+          "diodeOnColor": "#0062FF"
+        },
+        "type": "ia.display.led-display"
+      },
+      {
+        "meta": {
+          "name": "Label_9"
+        },
+        "position": {
+          "height": 46,
+          "rotate": {
+            "anchor": "50% 75%"
+          },
+          "width": 212,
+          "x": 4,
+          "y": 450
+        },
+        "props": {
+          "text": "Belt Speed"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "LedDisplay_7"
+        },
+        "position": {
+          "height": 49,
+          "width": 187,
+          "x": 155.506,
+          "y": 444
+        },
+        "propConfig": {
+          "props.value": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]Bessie/Global/FLOAT14/FLOAT14_29_"
+              },
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "backgroundColor": "#D5D5D5",
+          "diodeOffColor": "#0062FF1A",
+          "diodeOnColor": "#0062FF"
+        },
+        "type": "ia.display.led-display"
+      },
+      {
+        "meta": {
+          "name": "Label_11"
+        },
+        "position": {
+          "height": 46,
+          "rotate": {
+            "anchor": "50% 159%"
+          },
+          "width": 212,
+          "x": 4,
+          "y": 500.5
+        },
+        "props": {
+          "text": "Exhaust Fan"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "LedDisplay_8"
+        },
+        "position": {
+          "height": 49,
+          "width": 186,
+          "x": 156.506,
+          "y": 498
+        },
+        "propConfig": {
+          "props.value": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]Bessie/Global/Exhaust_Fan_OutputFreq"
+              },
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "backgroundColor": "#D5D5D5",
+          "diodeOffColor": "#0062FF1A",
+          "diodeOnColor": "#0062FF"
+        },
+        "type": "ia.display.led-display"
+      },
+      {
+        "meta": {
+          "name": "Label_12"
+        },
+        "position": {
+          "height": 46,
+          "rotate": {
+            "anchor": "50% 159%"
+          },
+          "width": 155,
+          "x": 4.49701,
+          "y": 606.001
+        },
+        "props": {
+          "text": "Pepper Reduction Scalar"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "LedDisplay_9"
+        },
+        "position": {
+          "height": 49,
+          "width": 186,
+          "x": 156.506,
+          "y": 605.501
+        },
+        "propConfig": {
+          "props.value": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]Bessie/Perspective_Historical/Pepper_Reduction_Scalar"
+              },
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "backgroundColor": "#D5D5D5",
+          "diodeOffColor": "#0062FF1A",
+          "diodeOnColor": "#0062FF"
+        },
+        "type": "ia.display.led-display"
+      },
+      {
+        "meta": {
+          "name": "LedDisplay_10"
+        },
+        "position": {
+          "height": 49,
+          "width": 186,
+          "x": 156.506,
+          "y": 552.5
+        },
+        "propConfig": {
+          "props.value": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]Bessie/Perspective_Historical/Spice_Auger_Reduction_Scalar"
+              },
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "backgroundColor": "#D5D5D5",
+          "diodeOffColor": "#0062FF1A",
+          "diodeOnColor": "#0062FF"
+        },
+        "type": "ia.display.led-display"
+      },
+      {
+        "meta": {
+          "name": "Label_13"
+        },
+        "position": {
+          "height": 46,
+          "rotate": {
+            "anchor": "50% 159%"
+          },
+          "width": 155,
+          "x": 4.49701,
+          "y": 553.494
+        },
+        "props": {
+          "text": "Spice Auger Reduction Scalar"
+        },
+        "type": "ia.display.label"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.coord"
+  }
+}

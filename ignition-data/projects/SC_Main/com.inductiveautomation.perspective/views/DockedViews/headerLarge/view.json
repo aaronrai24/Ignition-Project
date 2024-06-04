@@ -1,0 +1,38 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "height": 65
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Label"
+        },
+        "position": {
+          "height": 35,
+          "rotate": {
+            "anchor": "50% 25%"
+          },
+          "width": 591,
+          "x": 104,
+          "y": 15
+        },
+        "props": {
+          "style": {
+            "textAlign": "center"
+          },
+          "text": "Sonoma Creamery Mobile App"
+        },
+        "type": "ia.display.label"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.coord"
+  }
+}

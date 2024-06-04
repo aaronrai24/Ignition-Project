@@ -1,0 +1,16 @@
+{
+  "scope": "DG",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "data.bin"
+  ],
+  "attributes": {
+    "lastModification": {
+      "actor": "patrick.costello",
+      "timestamp": "2020-07-14T18:05:12Z"
+    },
+    "lastModificationSignature": "2bd9d11632d732b6785a9b0a2c668eb8f0cdb2cb18c0b6992f3f4bd158295b79"
+  }
+}
