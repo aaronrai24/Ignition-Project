@@ -1,7 +1,7 @@
 ---
 services:
   gateway:
-    image: bwdesigngroup/ignition-docker:8.1.32
+    image: bwdesigngroup/ignition-docker:8.1.36
     hostname: APC
     volumes:
       - ./ignition-data:/workdir
@@ -12,7 +12,7 @@ services:
       GATEWAY_SYSTEM_NAME: APC
       GATEWAY_PUBLIC_HTTPS_PORT: 443
       GATEWAY_PUBLIC_ADDRESS: APC.localtest.me
-      GATEWAY_MODULES_ENABLED: vision,perspective,allen-bradley-drivers,opc-ua,tag-historian
+      GATEWAY_MODULES_ENABLED: alarm-notification,allen-bradley-drivers,bacnet-driver,dnp3-driver,dnp3-driver-v2,enterprise-administration,logix-driver,modbus-driver-v2,opc-ua,perspective,reporting,sfc,sql-bridge,tag-historian,vision,web-developer
     labels:
       traefik.enable: "true"
       traefik.hostname: "APC"
