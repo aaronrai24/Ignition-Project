@@ -1,0 +1,11 @@
+{
+  "pages": {
+    "/": {
+      "title": "Gas Meter Reading (Corrected)",
+      "viewPath": "Gas Meter"
+    }
+  },
+  "sharedDocks": {
+    "cornerPriority": "top-bottom"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "scope": "C",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "window.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModification": {
+      "actor": "dplagmann",
+      "timestamp": "2024-01-26T16:38:19Z"
+    },
+    "xml-format-version": 1,
+    "open-on-start": true,
+    "lastModificationSignature": "851d061dd4c2ae314b3b352129eca6f9a47903e3165c909f39202ae5b0a47c4f"
+  }
+}

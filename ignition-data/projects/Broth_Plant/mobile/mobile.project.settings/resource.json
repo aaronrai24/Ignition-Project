@@ -1,0 +1,17 @@
+{
+  "scope": "G",
+  "documentation": "",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "data.bin"
+  ],
+  "attributes": {
+    "lastModification": {
+      "actor": "external",
+      "timestamp": "2020-03-24T15:43:05Z"
+    },
+    "lastModificationSignature": "ec8c2dd15528baa13905b88b32513cda3f4eae684854b2535f38665e9245ef65"
+  }
+}

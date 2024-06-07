@@ -1,0 +1,20 @@
+{
+  "scope": "C",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "window.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2024-06-07T22:32:52Z"
+    },
+    "xml-format-version": 1,
+    "open-on-start": true,
+    "parameter-names": "dataset,menuItems,title",
+    "lastModificationSignature": "a4ded978be64e82a3273788d66bc3b83102d195780e83444beaaf2b5e0b2cbfa"
+  }
+}

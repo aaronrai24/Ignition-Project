@@ -1,0 +1,50 @@
+{
+  "scope": "DG",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "query.sql"
+  ],
+  "attributes": {
+    "useMaxReturnSize": false,
+    "autoBatchEnabled": false,
+    "fallbackValue": "",
+    "maxReturnSize": 100,
+    "cacheUnit": "SEC",
+    "type": "UpdateQuery",
+    "enabled": true,
+    "cacheAmount": 1,
+    "cacheEnabled": false,
+    "database": "",
+    "fallbackEnabled": false,
+    "lastModificationSignature": "b91790482462bdbccd3ddc8b93887ceec5200073d43c2a9ad5fc7ad9fd6dfafa",
+    "permissions": [
+      {
+        "zone": "",
+        "role": ""
+      }
+    ],
+    "lastModification": {
+      "actor": "sbeck",
+      "timestamp": "2021-08-26T06:34:20Z"
+    },
+    "parameters": [
+      {
+        "type": "Parameter",
+        "identifier": "index",
+        "sqlType": 2
+      },
+      {
+        "type": "QueryString",
+        "identifier": "column",
+        "sqlType": 7
+      },
+      {
+        "type": "Parameter",
+        "identifier": "dateTime",
+        "sqlType": 8
+      }
+    ]
+  }
+}

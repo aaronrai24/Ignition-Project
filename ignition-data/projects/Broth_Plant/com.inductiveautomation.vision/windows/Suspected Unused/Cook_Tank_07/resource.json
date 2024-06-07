@@ -1,0 +1,16 @@
+{
+  "scope": "C",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "data.bin"
+  ],
+  "attributes": {
+    "lastModification": {
+      "actor": "sbeck",
+      "timestamp": "2022-06-09T23:49:20Z"
+    },
+    "lastModificationSignature": "a9ef80df09e353150ceab2578d259794f33c515186e3e8dd6720437c3f065f17"
+  }
+}

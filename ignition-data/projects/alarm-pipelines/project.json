@@ -1,0 +1,7 @@
+{
+  "title": "AlarmPipelines",
+  "description": "Contains alarm notification pipelines imported from the Ignition 7 global project",
+  "parent": "global",
+  "enabled": true,
+  "inheritable": false
+}

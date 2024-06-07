@@ -1,0 +1,112 @@
+{
+  "custom": {},
+  "params": {},
+  "propConfig": {
+    "params.feature": {
+      "paramDirection": "input"
+    },
+    "params.key": {
+      "paramDirection": "input"
+    },
+    "params.tier1": {
+      "paramDirection": "input"
+    },
+    "params.tier2": {
+      "paramDirection": "input"
+    }
+  },
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Title"
+        },
+        "position": {
+          "basis": "56px",
+          "shrink": 0
+        },
+        "props": {
+          "params": {
+            "icon": "home",
+            "text": "Gas Meter (Corrected)"
+          },
+          "path": "Page/Embedded/Title"
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "hasDelegate": true,
+          "name": "Spacer_1"
+        },
+        "position": {
+          "basis": "12px",
+          "shrink": 0
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "children": [
+          {
+            "meta": {
+              "name": "LedDisplay"
+            },
+            "position": {
+              "basis": "215px"
+            },
+            "propConfig": {
+              "props.value": {
+                "binding": {
+                  "config": {
+                    "fallbackDelay": 2.5,
+                    "mode": "direct",
+                    "tagPath": "[Functional Plant]Gas Meter/Meter Reading Corrected"
+                  },
+                  "type": "tag"
+                }
+              }
+            },
+            "props": {
+              "numberFormat": "0"
+            },
+            "type": "ia.display.led-display"
+          }
+        ],
+        "meta": {
+          "name": "FlexContainer"
+        },
+        "position": {
+          "basis": "47px"
+        },
+        "props": {
+          "style": {
+            "marginLeft": 10
+          }
+        },
+        "type": "ia.container.flex"
+      },
+      {
+        "meta": {
+          "hasDelegate": true,
+          "name": "Spacer_2"
+        },
+        "position": {
+          "basis": "10px",
+          "shrink": 0
+        },
+        "type": "ia.display.label"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "direction": "column",
+      "style": {
+        "classes": "Page/Page"
+      }
+    },
+    "type": "ia.container.flex"
+  }
+}

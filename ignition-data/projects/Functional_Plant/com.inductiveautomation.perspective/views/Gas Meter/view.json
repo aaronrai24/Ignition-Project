@@ -1,0 +1,85 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Spacer 1"
+        },
+        "position": {
+          "basis": "12px"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label"
+        },
+        "position": {
+          "basis": "32px"
+        },
+        "props": {
+          "style": {
+            "fontSize": 20,
+            "fontWeight": "bold"
+          },
+          "text": "Gas Meter Reading (Corrected)"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Spacer 2"
+        },
+        "position": {
+          "basis": "12px"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "children": [
+          {
+            "meta": {
+              "name": "LedDisplay"
+            },
+            "position": {
+              "basis": "282px"
+            },
+            "propConfig": {
+              "props.value": {
+                "binding": {
+                  "config": {
+                    "fallbackDelay": 2.5,
+                    "mode": "direct",
+                    "tagPath": "[Functional Plant]Gas Meter/Meter Reading Corrected"
+                  },
+                  "type": "tag"
+                }
+              }
+            },
+            "props": {
+              "numberFormat": "0"
+            },
+            "type": "ia.display.led-display"
+          }
+        ],
+        "meta": {
+          "name": "FlexContainer"
+        },
+        "position": {
+          "basis": "49px"
+        },
+        "type": "ia.container.flex"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "direction": "column"
+    },
+    "type": "ia.container.flex"
+  }
+}

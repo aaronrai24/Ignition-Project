@@ -1,0 +1,16 @@
+{
+  "scope": "D",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "data.bin"
+  ],
+  "attributes": {
+    "lastModification": {
+      "actor": "external",
+      "timestamp": "2020-03-24T15:43:05Z"
+    },
+    "lastModificationSignature": "2c49305ed234e4bfa903b2816204986aa6d6179ff2d5af249615a20f0150af98"
+  }
+}

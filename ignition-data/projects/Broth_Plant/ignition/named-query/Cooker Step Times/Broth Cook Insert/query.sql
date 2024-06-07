@@ -1,0 +1,1 @@
+insert into broth_cook_times (cooker,{column}) values ( :cooker , :dateTime )

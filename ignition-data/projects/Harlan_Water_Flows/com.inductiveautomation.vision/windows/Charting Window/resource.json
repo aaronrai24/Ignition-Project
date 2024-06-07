@@ -1,0 +1,20 @@
+{
+  "scope": "C",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "window.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModification": {
+      "actor": "sbeck",
+      "timestamp": "2023-09-27T23:08:46Z"
+    },
+    "xml-format-version": 1,
+    "open-on-start": true,
+    "parameter-names": "dataset,menuItems,title",
+    "lastModificationSignature": "9997a4c7bee9dcc7da4ab5db476f2fb369316af261baa290d6658b17048a0abc"
+  }
+}

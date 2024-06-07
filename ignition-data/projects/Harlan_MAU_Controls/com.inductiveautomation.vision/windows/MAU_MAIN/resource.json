@@ -1,0 +1,19 @@
+{
+  "scope": "C",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "window.bin",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModification": {
+      "actor": "sbeck",
+      "timestamp": "2023-05-02T19:43:47Z"
+    },
+    "xml-format-version": 1,
+    "parameter-names": "TestValue",
+    "lastModificationSignature": "50eff6ee0b280f98d55c48594fa29c821e2301e9023a6f8f4fb371ec0079e810"
+  }
+}

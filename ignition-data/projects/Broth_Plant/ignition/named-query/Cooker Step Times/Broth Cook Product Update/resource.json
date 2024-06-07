@@ -1,0 +1,55 @@
+{
+  "scope": "DG",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "query.sql"
+  ],
+  "attributes": {
+    "useMaxReturnSize": false,
+    "autoBatchEnabled": false,
+    "fallbackValue": "",
+    "maxReturnSize": 100,
+    "cacheUnit": "SEC",
+    "type": "UpdateQuery",
+    "enabled": true,
+    "cacheAmount": 1,
+    "cacheEnabled": false,
+    "database": "",
+    "fallbackEnabled": false,
+    "lastModificationSignature": "4e102ca223adcc06eba2650bbb5bb630287e85f799c6815c8295f8029005edc4",
+    "permissions": [
+      {
+        "zone": "",
+        "role": ""
+      }
+    ],
+    "lastModification": {
+      "actor": "sbeck",
+      "timestamp": "2022-03-30T20:49:22Z"
+    },
+    "parameters": [
+      {
+        "type": "Parameter",
+        "identifier": "index",
+        "sqlType": 2
+      },
+      {
+        "type": "Parameter",
+        "identifier": "product",
+        "sqlType": 2
+      },
+      {
+        "type": "Parameter",
+        "identifier": "prodWeight",
+        "sqlType": 4
+      },
+      {
+        "type": "Parameter",
+        "identifier": "totalWeight",
+        "sqlType": 4
+      }
+    ]
+  }
+}

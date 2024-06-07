@@ -1,0 +1,50 @@
+{
+  "scope": "DG",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "query.sql"
+  ],
+  "attributes": {
+    "useMaxReturnSize": false,
+    "autoBatchEnabled": false,
+    "fallbackValue": "",
+    "maxReturnSize": 100,
+    "cacheUnit": "SEC",
+    "type": "UpdateQuery",
+    "enabled": true,
+    "cacheAmount": 1,
+    "cacheEnabled": false,
+    "database": "",
+    "fallbackEnabled": false,
+    "lastModificationSignature": "564ce4abc23f3a9788953639b67a6baac1983a96d98a655639e323d7b7aaa54a",
+    "permissions": [
+      {
+        "zone": "",
+        "role": ""
+      }
+    ],
+    "lastModification": {
+      "actor": "sbeck",
+      "timestamp": "2021-09-03T19:16:44Z"
+    },
+    "parameters": [
+      {
+        "type": "QueryString",
+        "identifier": "column",
+        "sqlType": 7
+      },
+      {
+        "type": "Parameter",
+        "identifier": "dateTime",
+        "sqlType": 8
+      },
+      {
+        "type": "Parameter",
+        "identifier": "cooker",
+        "sqlType": 2
+      }
+    ]
+  }
+}
